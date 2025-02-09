@@ -12,7 +12,7 @@ let imageContainer =
 async function fetchImages(category) { 
 	try { 
 		let response = 
-		await fetch(`use a API`); 
+		await fetch('https://dummyjson.com/image/400x200/008080/ffffff?text='+category); 
 		if (!response.ok) { 
 			throw new Error('Unable to fetch the data'); 
 		} 
